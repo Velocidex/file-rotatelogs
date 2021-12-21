@@ -1,3 +1,6 @@
+This is a fork of https://github.com/lestrrat-go/file-rotatelogs that
+has been archived.
+
 file-rotatelogs
 ==================
 
@@ -7,10 +10,6 @@ Provide an `io.Writer` that periodically rotates log files from within the appli
 
 [![GoDoc](https://godoc.org/github.com/lestrrat-go/file-rotatelogs?status.svg)](https://godoc.org/github.com/lestrrat-go/file-rotatelogs)
 
-# WARNINGS
-
-THIS PROJECT HAS BEEN ARCHIVED. IT WILL NOT RECEIVE UPDATES, THE AUTHOR DOES NOT WISH TO MAINTAIN OR SUPPORT IT.
-IN SHORT, DO NOT USE THIS PROJECT.
 
 # SYNOPSIS
 

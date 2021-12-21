@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lestrrat-go/file-rotatelogs/internal/fileutil"
+	"github.com/Velocidex/file-rotatelogs/internal/fileutil"
 	strftime "github.com/lestrrat-go/strftime"
 	"github.com/pkg/errors"
 )
@@ -109,7 +109,7 @@ func (rl *RotateLogs) Write(p []byte) (n int, err error) {
 
 	out, err := rl.getWriterNolock(false, false)
 	if err != nil {
-		return 0, errors.Wrap(err, `failed to acquite target io.Writer`)
+		return 0, errors.Wrap(err, `failed to acquire target io.Writer`)
 	}
 
 	return out.Write(p)
